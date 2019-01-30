@@ -1,0 +1,222 @@
+body {
+	background-image: url("Слава украини!.jpg"); 
+}
+.wrap {
+	cursor: pointer;
+	height: 500px;
+	width: 500px;
+	border: 1px solid #000;
+	position: absolute;
+	top: 30px;
+	left: 400px;
+	margin: auto;
+	border-radius: 5%;
+	box-shadow:
+	 rgba(255,30,176,0.7) 13px 0px 7px,
+	 rgba(30,34,255,0.5) -13px 0px 7px,
+	 rgba(255,30,176,0.7) 0px 13px 7px,
+	 rgba(30,34,255,0.5) 0px -13px 7px;
+	 background-color: rgba(231,255,170,0.1);
+	 transition: 0.6s;
+}
+
+.newWrap {
+	cursor: pointer;
+	height: 505px;
+	width: 505px;
+	border: 1px solid #000;
+	position: absolute;
+	top: 30px;
+	left: 400px;
+	margin: auto;
+	border-radius: 5%;
+	box-shadow:
+	 rgba(255,30,176,0.7) -13px 0px 10px,
+	 rgba(30,34,255,0.5) 13px 0px 10px,
+	 rgba(255,30,176,0.7) 0px -13px 10px,
+	 rgba(30,34,255,0.5) 0px 13px 10px;
+	 background-color: rgba(255,255,255,1);
+	 transition: 0.3s;
+}
+
+.wrap:hover {
+	border-radius: 50%;
+	transition-property: border-radius, box-shadow;
+	transition-duration: 0.7s;
+	border: 3px dashed #000;
+	box-shadow:
+	 rgba(255,30,176,0.7) -13px 0px 7px,
+	 rgba(30,34,255,0.5) 13px 0px 7px,
+	 rgba(255,30,176,0.7) 0px -13px 7px,
+	 rgba(30,34,255,0.5) 0px 13px 7px;
+	 background-color: rgba(0,0,0,0.1);
+}
+
+.wrapR {
+	border: 3px solid #000;
+}
+
+.KTO {
+	border-radius: 10%;
+	font-size: 60px;
+	color: yellow;
+	text-align: center;
+	margin-top: 70px;
+	font-family: fantasy;
+	font-style: oblique; 
+	display: block;
+}
+
+.LOH {
+	opacity: 0;
+}
+
+.LOH1 {
+	opacity: 1;
+	transition: opacity 1s;
+	text-align: center;
+	font-size: 50px;
+	font-weight: 666;
+	font-style: oblique;
+	color: #FFFB28; 
+}
+#SL {
+	color: red;
+	text-decoration: underline;
+}
+
+
+.Ll {
+	opacity: 0;
+}
+
+.Ol {
+	opacity: 0;
+	
+}
+
+.Hl{
+	opacity: 0;
+}
+
+.Lr {
+	opacity: 0;
+}
+
+.Or {
+	opacity: 0;
+}
+
+.Hr{
+	opacity: 0;
+}
+
+
+
+
+.Llv {
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 70px;
+	left: 54px;
+	font-size: 115px;
+	color: red;
+	font-family: cursive;
+	transition: 0.5s;
+}
+
+.Llv:hover {
+	color: #FFF200;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+
+.Olv {
+	opacity: 1;
+	transition: opacity 6s;
+	position: absolute;
+	top: 170px;
+	left: 54px;
+	font-size: 115px;
+	color: red;
+	font-family: cursive;
+	transition: 0.5s;
+}
+
+.Olv:hover {
+	transition: 0.5s;
+	color: #52FCFC;
+	cursor: pointer;
+}
+
+.Hlv {
+	opacity: 1;
+	transition: opacity 9s;
+	position: absolute;
+	top: 260px;
+	left: 54px;
+	font-size: 115px;
+	color: red;
+	font-family: cursive;
+	transition: 0.5s;
+}
+
+.Hlv:hover {
+	transition: 0.5s;
+	color: #52FCFC;
+	cursor: pointer;
+}
+
+.Lrv {
+	opacity: 1;
+	transition: opacity 9s;
+	position: absolute;
+	top: 70px;
+	right: 54px;
+	font-size: 115px;
+	color: red;
+	font-family: cursive;
+	transition: 0.5s;
+}
+.Lrv:hover {
+	transition: 0.5s;
+	color: #FFF200;
+	cursor: pointer;
+}
+
+.Orv {
+	opacity: 1;
+	transition: opacity 6s;
+	position: absolute;
+	top: 170px;
+	right: 54px;
+	font-size: 115px;
+	color: red;
+	font-family: cursive;
+	transition: 0.5s;
+}
+
+.Orv:hover {
+	transition: 0.5s;
+	color: #52FCFC;
+	cursor: pointer;
+}
+
+.Hrv {
+	opacity: 1;
+	transition: opacity 3s;
+	position: absolute;
+	top: 260px;
+	right: 54px;
+	font-size: 115px;
+	color: red;
+	font-family: cursive;
+	transition: 0.5s;
+}
+.Hrv:hover {
+	transition: 0.5s;
+	color: #52FCFC;
+	cursor: pointer;
+}
