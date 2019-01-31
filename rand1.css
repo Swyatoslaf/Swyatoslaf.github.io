@@ -4,7 +4,6 @@
 	font-family: monospace;
 	border: 1px solid #000;
 	height: 13em;
-	width: 100%;
 }
 #textx1 {
 	margin-top: 0;
@@ -20,7 +19,6 @@
 	border-left: 1px solid #000;
 	border-bottom: 1px solid #000;
 	height: 13em;
-	width: 100%;
 }
 #gs {
 	font-size: 50px;
