@@ -53,10 +53,10 @@
 @media screen and (min-height: 1000px) {
 	#table {
 		height: 20em;
-		font-size: 30px
+		font-size: 50px;
 	}
 	#table1 {
 		height: 20em;
-		font-size: 30px
+		font-size: 50px;
 	}
 }
