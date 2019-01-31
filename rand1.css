@@ -1,24 +1,22 @@
 #table1 {
 	text-align: center;
-	font-size: 18px;
+	font-size: 5em;
 	font-family: monospace;
 	border: 1px solid #000;
-	height: 13em;
+	height: 15em;
 }
 #textx1 {
-	margin-top: 0;
+	margin-top: 2em;
 }
 #textx {
-	margin-top: 0;
+	margin-top: 2em;
 }
 #table2 {
 	text-align: center;
-	font-size: 18px;
+	font-size: 5em;
 	font-family: monospace;
-	border-right: 1px solid #000;
-	border-left: 1px solid #000;
-	border-bottom: 1px solid #000;
-	height: 13em;
+	border: 1px solid #000;
+	height: 20em;
 }
 #gs {
 	font-size: 50px;
