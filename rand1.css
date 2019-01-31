@@ -1,0 +1,53 @@
+#table1 {
+	text-align: center;
+	font-size: 18px;
+	font-family: monospace;
+	border: 1px solid #000;
+}
+#textx1 {
+	margin-top: 0;
+}
+#textx {
+	margin-top: 0;
+}
+#table2 {
+	text-align: center;
+	font-size: 18px;
+	font-family: monospace;
+	border-right: 1px solid #000;
+	border-left: 1px solid #000;
+	border-bottom: 1px solid #000;
+}
+#gs {
+	font-size: 50px;
+	color: red;
+
+}
+#another {
+	margin-bottom: 0;
+}
+#another1 {
+	margin-bottom: 0;
+}
+#gsx {
+	margin-bottom: 0;
+	float: left;
+	margin-left: 200px;
+}
+#gsy {
+	margin-bottom: 0;
+	float: right;
+	margin-right: 200px;
+}
+
+#another {
+	font-size: 20px;
+	font-family: sans-serif;
+}
+#another1 {
+	font-size: 20px;
+	font-family: sans-serif;
+}
+span {
+	float: right;	
+}
