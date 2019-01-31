@@ -52,3 +52,13 @@
 	font-size: 20px;
 	font-family: sans-serif;
 }
+@media screen and (min-height: 1000px) {
+	#table {
+		height: 20em;
+		font-size: 30px
+	}
+	#table1 {
+		height: 20em;
+		font-size: 30px
+	}
+}
