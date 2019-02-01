@@ -1,0 +1,105 @@
+.wrapper {
+	margin: 0 auto;
+	padding: 0;
+	background-color: rgba(246,187,169,0.3);
+}
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 10px;
+}
+.item {
+	flex-grow: 1;
+	flex-basis: 23%;
+	min-height: 100%; 
+	text-align: center;
+	border: 5px solid rgba(210,210,210);
+	border-radius: 10%;
+	margin-top: 5px;
+	margin-bottom: 30px;
+	margin-left: 15px;
+	background-color: rgba(206,174,177,0.4);
+	box-shadow: rgba(1,2,3,0.5)10px 10px 20px;
+
+}
+.item img {
+	width: 200px;
+	border-radius: 50%;
+	padding: 20px;
+	margin-top: 9px;
+	margin-bottom: 9px;
+	border: 1px solid #000;
+	background-color: rgba(246,187,169,0.3);
+	opacity: 0.7;
+	transition: 0.5s;
+	box-shadow: rgba(1,2,3,0.9)5px 3px 3px;
+}
+.subtitle {
+	text-shadow: rgba(1,1,1,0.2)5px 5px 5px;
+	font-weight: normal;
+	font-size: 22px;
+	font-family: cursive;
+	transition-duration: 0.5s;
+}
+.subtitle:hover {
+	transition-property: font-weight, text-shadow;
+	font-weight: bold;
+	text-shadow: rgba(1,1,1,0.5)8px 8px 7px;;
+	transition-duration: text-shadow 0.7s;
+}
+.text {
+	text-align: center;
+	font-size: 19px;
+	font-family: normal;
+	text-shadow: rgba(1,1,1,0.3)2px 1px 1px;
+	transition-duration: 0.5s;
+	margin: 10px;
+}
+.text:hover {
+	transition-property: text-shadow;
+	text-shadow: rgba(1,1,1,0.5)4px 3px 3px;
+	transition: 0.5s;
+}
+.item img:hover {
+	opacity: 1;
+	width: 270px;
+	transition-property: border-radius, width, opacity, padding, background-color, box-shadow;
+	padding: 0px;
+	transition-duration: 0.5s;
+	border-radius: 3%;
+	background-color: rgba(232,177,173,0.7);
+	box-shadow: rgba(1,1,1,0.2)10px 6px 6px;
+	
+}
+@media screen and (min-width: 1920px) and (min-width: 1080px) {
+	.row {
+		padding: 30px;
+	}
+	.item {
+		flex-basis: 23%;
+		flex-grow: 1;
+		border: 1px solid #000;
+		border-radius: 1%;
+		background-color: rgba(172,172,172,0.2);
+	}
+	.item img {
+		width: 290px;
+		background-color: rgba(230,230,250,0,7);
+		border: 1px solid #000;
+	}
+	.item img:hover {
+		width: 340px; 
+		background-color: rgba(230,230,250,1);
+		border-radius: 6%;
+	}
+	.wrapper {
+	background-color: rgba(229,228,226);
+	}
+	.text {
+		font-size: 25px;
+	}
+	.subtitle {
+		font-size: 27px;
+	}
+
+}
