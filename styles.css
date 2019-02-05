@@ -120,9 +120,8 @@
 	border-radius: 3%;
 	background-color: rgba(232,177,173,0.7);
 	box-shadow: rgba(1,1,1,0.2)10px 6px 6px;
-	
 }
-@media screen and (min-width: 320px) and (max-width: 684px) {
+@media screen and (max-width: 684px) {
 	.wrapper {
 		background-color: rgba(101,0,11,0.6);
 	}
