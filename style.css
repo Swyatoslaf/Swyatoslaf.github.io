@@ -1,0 +1,86 @@
+
+body {
+	height: 500px;
+	background-color: rgba(0,0,0,0.3);
+}
+ #circle {
+	width: 500px;
+	height: 500px;
+	border-radius: 50%;
+	border: 1px solid #000;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3%;
+	background-color: rgba(0,0,0,0.6);
+	transition: all 1s;
+}
+#circle:hover {
+	box-shadow: 0px 0px 50px 10px #000;
+}
+#change_on_circle {
+	text-align: center;
+	position: relative;
+	top: 40%;
+	font-size: 35px;
+}
+.input {
+	text-align: center;
+	margin-top: 3%;
+}
+#change_colomn {
+	position: absolute;
+	top: 0;
+	width: 25%;
+}
+#textChange {
+	font-size: 33px;
+	font-family: cursive;
+	width: 150%;
+}
+li {
+	margin-top: 50px;
+	font-size: 30px;
+	padding: 20px;
+	border-radius: 3%;
+	text-align: center;
+	list-style-type: none;
+}
+li:active {
+	position: relative;
+	top: 3px;
+}
+li:hover {
+	box-shadow: 5px 5px 5px 5px #000;
+}
+#red {
+	cursor: pointer;
+	transition: all 1s;
+	background-color: rgba(244,14,33,0.6);
+}
+#red:hover {
+	background-color: rgba(244,14,33);
+}
+#yellow {
+	cursor: pointer;
+	transition: all 1s;
+	background-color: rgba(255,221,0,0.6);
+}
+#yellow:hover {
+	background-color: rgba(255,221,0);
+}
+#green {
+	cursor: pointer;
+	transition: all 1s;
+	background-color: rgba(87,226,22,0.6);
+}
+#green:hover {
+	background-color: rgba(87,226,22);
+}
+#violet {
+	cursor: pointer;
+	transition: all 1s;
+	background-color: rgba(143,0,226,0.6);
+}
+#violet:hover {
+	background-color: rgba(143,0,226);
+}
