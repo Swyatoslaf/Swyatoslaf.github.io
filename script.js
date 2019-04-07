@@ -1,33 +1,16 @@
 window.onload = function() {
-	let red = document.querySelector("#red");
-	let yellow = document.querySelector("#yellow");
-	let green = document.querySelector("#green");
-	let violet = document.querySelector("#violet");
-
 	let circle = document.querySelector("#circle");
+	let colorCircle;
+	let colorShadow;
+	document.querySelector("#colorCircle").oninput = function() {
+		colorCircle = this.value;
+		circle.style.backgroundColor = colorCircle;
+		document.querySelector("#change_on_circle_back").innerHTML = "BackgroundColor :" + "\n </br>" + this.value;
+	}
+	document.querySelector("#colorShadow").oninput = function() {
+		colorShadow = this.value;
+		circle.style.boxShadow = "0px 0px 50px 10px" + colorShadow;
+		document.querySelector("#change_on_circle_shadow").innerHTML = "BoxShadowColor :" + "\n </br>" + this.value;
+	}
 
-	red.onclick = function() {
-		circle.style.backgroundColor = "rgba(244,14,33,0.6)";
-	}
-	red.onmousemove = function() {
-		circle.style.boxShadow = "0px 0px 50px 10px rgba(244,14,33,0.6)"
-	}
-	yellow.onclick = function() {
-		circle.style.backgroundColor = "rgba(255,221,0,0.6)";
-	}
-	yellow.onmousemove = function() {
-		circle.style.boxShadow = "0px 0px 50px 10px rgba(255,221,0,0.6)"
-	}
-	green.onclick = function() {
-		circle.style.backgroundColor = "rgba(87,226,22,0.6)";
-	}
-	green.onmousemove = function() {
-		circle.style.boxShadow = "0px 0px 50px 10px rgba(87,226,22,0.6)"
-	}
-	violet.onclick = function() {
-		circle.style.backgroundColor = "rgba(143,0,226,0.6)";
-	}
-	violet.onmousemove = function() {
-		circle.style.boxShadow = "0px 0px 50px 10px rgba(143,0,226,0.6)"
-	}
 }
